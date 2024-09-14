@@ -9,10 +9,10 @@ private:
     std::string population;
     int speed;
 public:
-    int getWidth();
-    int getHeight();
-    std::string getPopulation();
-    int getSpeed();
+    int getWidth() const;
+    int getHeight() const;
+    std::string getPopulation() const;
+    int getSpeed() const;
 
     void setWidth(int width);
     void setHeight(int height);
