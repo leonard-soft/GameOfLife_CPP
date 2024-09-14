@@ -3,12 +3,12 @@ project(c__)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(gol)
+include_directories(game)
 include_directories(managers)
 
 add_executable(c__
-    gol/Game.cpp
-    gol/Game.h
+        game/Game.cpp
+        game/Game.h
     managers/ArgumentManager.cpp
     managers/ArgumentManager.h
     GameOfLife.cpp

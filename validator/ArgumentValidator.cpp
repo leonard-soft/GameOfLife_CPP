@@ -52,7 +52,7 @@ void ArgumentValidator::validatePopulation() {
     std::string validPopulation;
     if(!this->population.empty()) {
         for (int i = 0; i < this->population.size(); i++) {
-            if (population[i] != '#' || population[i] != '1' || population[i] != '0')
+            if (population[i] == '#' || population[i] == '1' || population[i] == '0')
                 validPopulation += population[i];
             else {
                 validPopulation = "Invalid";
