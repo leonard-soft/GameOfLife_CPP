@@ -24,10 +24,10 @@ void ValidArguments::setHeight(int height) {
     this->height = height;
 }
 
-void ValidArguments::set_population(const std::string &population) {
+void ValidArguments::setPopulation(const std::string &population) {
     this->population = population;
 }
 
-void ValidArguments::set_speed(int speed) {
+void ValidArguments::setSpeed(int speed) {
     this->speed = speed;
 }

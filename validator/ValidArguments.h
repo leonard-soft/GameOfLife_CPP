@@ -16,8 +16,8 @@ public:
 
     void setWidth(int width);
     void setHeight(int height);
-    void set_population(const std::string &population);
-    void set_speed(int speed);
+    void setPopulation(const std::string &population);
+    void setSpeed(int speed);
 };
 
 #endif

@@ -3,3 +3,12 @@
 4	1059	1726261833736540366	CMakeFiles/c__.dir/gol/Game.cpp.o	7236c3a2b7bc47a3
 3	1021	1726261908103445637	CMakeFiles/c__.dir/managers/ArgumentManager.cpp.o	fe7a6bf49e269832
 1021	1263	1726261909120115565	c__	792ff9f558f37a1b
+6	1046	1726277670820570120	CMakeFiles/c__.dir/GameOfLife.cpp.o	ffb351805afef36f
+4	1063	1726277670817236774	CMakeFiles/c__.dir/gol/Game.cpp.o	7236c3a2b7bc47a3
+1047	1087	1726277671860574062	CMakeFiles/c__.dir/configuration/GameConfiguration.cpp.o	b5aa402c98d4ee4e
+5	1360	1726277670820570120	CMakeFiles/c__.dir/managers/ArgumentManager.cpp.o	fe7a6bf49e269832
+1087	1806	1726277671900574213	CMakeFiles/c__.dir/validator/ValidArguments.cpp.o	4b4709f74facdd1e
+1063	2097	1726277671877240792	CMakeFiles/c__.dir/validator/ArgumentValidator.cpp.o	abcdec4fdce79330
+2097	2369	1726277672910578041	c__	9e098c9644364c66
+3	857	1726277777560969950	CMakeFiles/c__.dir/gol/Game.cpp.o	7236c3a2b7bc47a3
+857	1112	1726277778414306443	c__	9e098c9644364c66
