@@ -1,0 +1,5 @@
+# ninja log v6
+7	1076	1726261833739873710	CMakeFiles/c__.dir/GameOfLife.cpp.o	ffb351805afef36f
+4	1059	1726261833736540366	CMakeFiles/c__.dir/gol/Game.cpp.o	7236c3a2b7bc47a3
+3	1021	1726261908103445637	CMakeFiles/c__.dir/managers/ArgumentManager.cpp.o	fe7a6bf49e269832
+1021	1263	1726261909120115565	c__	792ff9f558f37a1b
