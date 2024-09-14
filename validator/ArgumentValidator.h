@@ -21,6 +21,8 @@ public:
     bool isNumber(std::string& str);
     void validateWidth();
     void validateHeight();
+    void validatePopulation();
+    void validateSpeed();
 };
 
 #endif
