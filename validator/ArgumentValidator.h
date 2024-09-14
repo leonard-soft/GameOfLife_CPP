@@ -18,6 +18,7 @@ public:
     void setWidth(std::string width);
     void setHeight(std::string height);
 
+    bool isNumber(std::string& str);
     void validateWidth();
     void validateHeight();
 };

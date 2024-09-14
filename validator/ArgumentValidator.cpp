@@ -1,4 +1,6 @@
 #include "ArgumentValidator.h"
+
+#include <algorithm>
 #include <iostream>
 #include <utility>
 
@@ -22,31 +24,27 @@ void ArgumentValidator::setWidth(std::string width) {
     this->width = std::move(width);
 }
 
+bool ArgumentValidator::isNumber(std::string& str) {
+    return !str.empty() && std::all_of(str.begin(), str.end(), ::isdigit);
+}
+
 void ArgumentValidator::validateWidth() {
-    if (!this->width.empty()) {
-        try {
-            int number = std::stoi(this->width);
-            if (number == 20 || number == 40)
-                valid_arguments.setWidth(number);
-            else
-                valid_arguments.setWidth(0);
-        } catch (std::exception& e) {
-            std::cerr << "Error: General Exception: " << e.what() << std::endl;
-        }
+    if (!this->width.empty() && isNumber(this->width)) {
+        int width = std::stoi(this->width);
+        if (width == 20 || width == 40)
+            valid_arguments.setWidth(width);
+    } else {
+        valid_arguments.setWidth(0);
     }
 }
 
 void ArgumentValidator::validateHeight() {
-    if (!this->height.empty()) {
-        try {
-            int number = std::stoi(this->height);
-            if (number == 20 || number == 40)
-                valid_arguments.setHeight(number);
-            else
-                valid_arguments.setHeight(0);
-        } catch (std::exception& e) {
-            std::cerr << "Error: General Exception: " << e.what() << std::endl;
-        }
+    if(!this->width.empty() && isNumber(this->width)) {
+        int height = std::stoi(this->height);
+        if (height == 10 || height == 20 || height == 40)
+            valid_arguments.setHeight(height);
+    } else {
+        valid_arguments.setHeight(0);
     }
 }
 
