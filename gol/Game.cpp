@@ -11,5 +11,6 @@ void Game::start() {
     argumentManager.printArguments();
     argumentValidator.setWidth(argumentManager.getWidth());
     argumentValidator.validateWidth();
-    printf("\n%i", argumentValidator.getValidArgumentObject().getWidth());
+    argumentValidator.setHeight(argumentManager.getHeight());
+    argumentValidator.validateHeight();
 }

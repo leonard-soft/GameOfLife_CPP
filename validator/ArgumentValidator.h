@@ -12,11 +12,14 @@ private:
     std::string speed;
 public:
     std::string getWidth() const;
+    std::string getHeight() const;
     ValidArguments getValidArgumentObject() const;
 
     void setWidth(std::string width);
+    void setHeight(std::string height);
 
     void validateWidth();
+    void validateHeight();
 };
 
 #endif
