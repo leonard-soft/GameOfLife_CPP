@@ -13,4 +13,8 @@ void Game::start() {
     argumentValidator.validateWidth();
     argumentValidator.setHeight(argumentManager.getHeight());
     argumentValidator.validateHeight();
+    argumentValidator.setPopulation(argumentManager.getPopulation());
+    argumentValidator.validatePopulation();
+    argumentValidator.setSpeed(argumentManager.getSpeed());
+    argumentValidator.validateSpeed();
 }

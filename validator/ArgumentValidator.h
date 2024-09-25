@@ -17,6 +17,8 @@ public:
 
     void setWidth(std::string width);
     void setHeight(std::string height);
+    void setPopulation(std::string population);
+    void setSpeed(std::string speed);
 
     bool isNumber(std::string& str);
     void validateWidth();

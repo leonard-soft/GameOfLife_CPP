@@ -1,3 +1,3 @@
-/home/liux/Desktop/c++/cmake-build-debug/CMakeFiles/c__.dir
-/home/liux/Desktop/c++/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/liux/Desktop/c++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/liux/CLionProjects/GameOfLife_CPP/cmake-build-debug/CMakeFiles/c__.dir
+/home/liux/CLionProjects/GameOfLife_CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/liux/CLionProjects/GameOfLife_CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

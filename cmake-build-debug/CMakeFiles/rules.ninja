@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /app/extra/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/liux/Desktop/c++ -B/home/liux/Desktop/c++/cmake-build-debug
+  command = /app/extra/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/liux/CLionProjects/GameOfLife_CPP -B/home/liux/CLionProjects/GameOfLife_CPP/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

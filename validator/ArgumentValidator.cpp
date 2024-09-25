@@ -24,6 +24,15 @@ void ArgumentValidator::setWidth(std::string width) {
     this->width = std::move(width);
 }
 
+void ArgumentValidator::setPopulation(std::string population) {
+    this->population = std::move(population);
+}
+
+void ArgumentValidator::setSpeed(std::string speed) {
+    this->speed = std::move(speed);
+}
+
+
 bool ArgumentValidator::isNumber(std::string& str) {
     return !str.empty() && std::all_of(str.begin(), str.end(), ::isdigit);
 }
@@ -39,7 +48,7 @@ void ArgumentValidator::validateWidth() {
 }
 
 void ArgumentValidator::validateHeight() {
-    if(!this->width.empty() && isNumber(this->width)) {
+    if(!this->height.empty() && isNumber(this->height)) {
         int height = std::stoi(this->height);
         if (height == 10 || height == 20 || height == 40)
             valid_arguments.setHeight(height);
@@ -64,5 +73,12 @@ void ArgumentValidator::validatePopulation() {
 }
 
 void ArgumentValidator::validateSpeed() {
-
+    if (!this->speed.empty() && this->isNumber(this->speed)) {
+        int speed = std::stoi(this->speed);
+        if (speed >= 100 && speed <= 1000) {
+            valid_arguments.setSpeed(speed);
+        } else {
+            valid_arguments.setSpeed(0);
+        }
+    }
 }

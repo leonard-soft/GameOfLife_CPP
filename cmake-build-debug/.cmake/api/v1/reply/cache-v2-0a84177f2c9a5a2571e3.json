@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/liux/Desktop/c++/cmake-build-debug"
+			"value" : "/home/liux/CLionProjects/GameOfLife_CPP/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -543,7 +543,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/liux/Desktop/c++/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/liux/CLionProjects/GameOfLife_CPP/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -603,7 +603,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/liux/Desktop/c++"
+			"value" : "/home/liux/CLionProjects/GameOfLife_CPP"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1163,7 +1163,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/liux/Desktop/c++/cmake-build-debug"
+			"value" : "/home/liux/CLionProjects/GameOfLife_CPP/cmake-build-debug"
 		},
 		{
 			"name" : "c___IS_TOP_LEVEL",
@@ -1187,7 +1187,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/liux/Desktop/c++"
+			"value" : "/home/liux/CLionProjects/GameOfLife_CPP"
 		}
 	],
 	"kind" : "cache",

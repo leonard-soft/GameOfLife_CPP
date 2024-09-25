@@ -55,11 +55,11 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/home/liux/Desktop/c++/gol"
+					"path" : "/home/liux/CLionProjects/GameOfLife_CPP/game"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/liux/Desktop/c++/managers"
+					"path" : "/home/liux/CLionProjects/GameOfLife_CPP/managers"
 				}
 			],
 			"language" : "CXX",
@@ -136,12 +136,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "gol/Game.cpp",
+			"path" : "game/Game.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "gol/Game.h",
+			"path" : "game/Game.h",
 			"sourceGroupIndex" : 1
 		},
 		{
