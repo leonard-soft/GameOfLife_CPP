@@ -32,7 +32,6 @@ void ArgumentValidator::setSpeed(std::string speed) {
     this->speed = std::move(speed);
 }
 
-
 bool ArgumentValidator::isNumber(std::string& str) {
     return !str.empty() && std::all_of(str.begin(), str.end(), ::isdigit);
 }

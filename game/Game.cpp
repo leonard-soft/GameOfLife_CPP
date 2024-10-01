@@ -1,5 +1,6 @@
 #include "Game.h"
 
+#include "../configuration/GameConfiguration.h"
 #include "../validator/ArgumentValidator.h"
 
 Game::Game(int argc, char** argv) : argc(argc), argv(argv) {}
@@ -7,6 +8,8 @@ Game::Game(int argc, char** argv) : argc(argc), argv(argv) {}
 void Game::start() {
     ArgumentManager argumentManager(this->argv, this->argc);
     ArgumentValidator argumentValidator;
+    GameConfiguration gameConfigutation();
+
     argumentManager.loadArguments();
     argumentManager.printArguments();
     argumentValidator.setWidth(argumentManager.getWidth());
@@ -17,4 +20,5 @@ void Game::start() {
     argumentValidator.validatePopulation();
     argumentValidator.setSpeed(argumentManager.getSpeed());
     argumentValidator.validateSpeed();
+    gameConfigutation().setValidArguments(argumentValidator.getValidArgumentObject())
 }
